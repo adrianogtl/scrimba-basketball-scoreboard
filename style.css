@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'CursedTimer';
+    src: url(assets/fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+:root {
+    --bgColor: #1B244A;
+    --white: #EEEEEE;
+    --red: #F94F6D;
+    --fontCursed: 'CursedTimer';
+    --fontSans: sans-serif;
+    --fontMono: monospace;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--white);
+    font-family: var(--fontSans);
+    background-color: var(--bgColor);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.score,
+.btn {
+    font-family: var(--fontCursed), var(--fontMono);
+}
+
+.score {
+    color: var(--red);
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+.btn {
+    margin: .3rem;
+    padding: .5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: var(--white);
+    border-radius: .3rem;
+    border-color: var(--white);
+    border-style: solid;
+}
+
+.btn:active {
+    background-color: var(--white);
+    color: var(--bgColor);
+    transition: .3s;
+}
+
+
+@media (min-width: 792px) {
+    body {
+        flex-direction: row;
+    }
+
+    .btn:hover {
+        background-color: var(--white);
+        color: var(--bgColor);
+        transition: .3s;
+        cursor: pointer;
+    }
+}
