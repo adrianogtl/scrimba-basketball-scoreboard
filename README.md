@@ -1,16 +1,15 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://adrianogtl.github.io/scrimba-counter/">
+  <a href="https://adrianogtl.github.io/scrimba-basketball-scoreboard">
     <img src="assets/images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Basketball Scoreboard | Scrimba</h3>
 
   <p align="center">
-  A simple scoreboard built with HTML, CSS and JavaScript
+  A scoreboard built with HTML, CSS and JavaScript
     <br />
     <br />
     <a href="https://adrianogtl.github.io/scrimba-basketball-scoreboard">View Demo</a>
@@ -19,29 +18,18 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#resources">Resources</a></li>
-  </ol>
-</details>
+## :dart: About
 
-## About The Project
-
-![Screenshot][screenshot-path]
+![Screenshot](assets/images/screenshot.png)
 
 - Coding challange from Scrimba's JavaScript course
 
-## Resources
+## :memo: License
 
-- Icon by [Icons8][icons8-url]
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## :heart: Acknowledgments
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+- Icon by [Icons8]( https://icons8.com)
 
-[screenshot-path]: assets/images/screenshot.png
-[icons8-url]: https://icons8.com
+<p align="right"><a href="#readme-top">Back to top :arrow_up: </a></p>
